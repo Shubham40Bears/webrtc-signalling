@@ -78,6 +78,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(3000, () => {
+server.listen(5050, () => {
   console.log('Signaling server running on http://localhost:3000');
 });
